@@ -1,0 +1,27 @@
+.centro {
+    padding-top: 12rem;
+    width: 100%;
+}
+
+.centro img {
+    filter: brightness(0.7);
+    width: 100%;
+}
+
+.textos {
+    padding: 10px;
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
