@@ -50,6 +50,35 @@ header {
 .menus li{
     list-style: none;
 }
-
-
-
+footer{
+    background-color: #333333;
+    height: 10.5rem;
+}
+.contfoot{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.enlaces a{
+    text-decoration: none;
+    color: #fff;
+}
+.enlaces ul{
+    list-style: none;
+}
+.enlaces p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 800;
+}
+.redes p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 800;
+}
+.coppy{
+    color: #cccccc;
+    text-align: center;
+}
