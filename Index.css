@@ -20,6 +20,17 @@
     font-weight: 300;
     font-style: normal;
 }
+.cartas a{
+    text-decoration: none;
+    background-color: #226597;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    margin: 5px auto 15px auto;
+    align-content: center;
+}
 
 .imagen-centro {
     filter: brightness(0.7);
@@ -82,7 +93,7 @@
     .textos {
         padding: 10px;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -135,7 +146,7 @@
     font-size: 1rem;
     color: #000;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: justify;
 }
 
