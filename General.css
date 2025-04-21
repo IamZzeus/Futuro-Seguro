@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Arial';
+    font-size: 1.2rem;
 }
 
 header {
@@ -18,10 +19,11 @@ header {
 }
 
 .logo {
-    display: flex;
+    text-align: center;
     justify-content: center;
     padding: .5rem;
 }
+
 .logo img {
     width: 100px;
     height: 100px;
@@ -35,50 +37,147 @@ header {
     padding: 1.3rem;
 }
 
-.menus a{
+.menus a {
     text-decoration: none;
     color: black;
 }
 
-.menus ul{
+.menus ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     width: 100%;
 }
 
-.menus li{
+.menus li {
     list-style: none;
 }
-footer{
+
+footer {
     background-color: #333333;
     height: 10.5rem;
 }
-.contfoot{
+
+.contfoot {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: center;
     text-align: center;
     padding: 10px;
 }
-.enlaces a{
+
+.enlaces a {
     text-decoration: none;
     color: #fff;
 }
-.enlaces ul{
+
+.enlaces ul {
     list-style: none;
 }
-.enlaces p{
+
+.enlaces p {
     font-size: 1rem;
     color: #fff;
     font-weight: 800;
 }
-.redes p{
+
+.redes p {
     font-size: 1rem;
     color: #fff;
     font-weight: 800;
 }
-.coppy{
+
+.coppy {
+    padding: 1rem;
     color: #cccccc;
     text-align: center;
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1080px) {
+    .conthead {
+        background-color: #88c0cd;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        z-index: 100;
+        height: 6rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+    .menus{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+        height: 100%;
+        
+    }
+    .menus a {
+        text-decoration: none;
+        color: black;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .menus ul {
+        display: flex;
+    }
+
+    .menus li {
+        list-style: none;
+    }
+
+    footer {
+        background-color: #333333;
+        height: 10.5rem;
+    }
+
+    .contfoot {
+        padding-top:3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .enlaces a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .enlaces ul {
+        list-style: none;
+    }
+
+    .enlaces p {
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    .redes p {
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    .coppy {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        color: #cccccc;
+        text-align: center;
+        grid-column: span 1 / span 1;
+    }
 }

@@ -3,10 +3,6 @@
     width: 100%;
 }
 
-.centro img {
-    filter: brightness(0.7);
-    width: 100%;
-}
 
 .textos {
     padding: 10px;
@@ -24,14 +20,103 @@
     font-weight: 300;
     font-style: normal;
 }
-.Tex-Serv{
+
+.imagen-centro {
+    filter: brightness(0.7);
+    width: 100%;
+    background-image: url("Asets/Index-imagen\ -\ movil.jpg");
+    padding-top: 20rem;
+}
+
+@media (min-width: 600px) {
+    .textos {
+        padding: 10px;
+        color: white;
+        font-size: 1.2rem;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 40%;
+        text-align: center;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .imagen-centro {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        padding-top: 12rem;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: brightness(0.7);
+        background-image: url("Asets/Index-imagen\ -\ movil.jpg");
+    }
+}
+
+@media (min-width: 700px) {
+    .textos {
+        padding: 10px;
+        color: white;
+        font-size: 1.2rem;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media (min-width: 1080px) {
+    .textos {
+        padding: 10px;
+        color: white;
+        font-size: 1.2rem;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 60%;
+        text-align: center;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .imagen-centro {
+        position: relative;
+        width: 100%;
+        height: 80rem;
+        margin-top: -25em;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: brightness(0.5);
+        background-image: url("Asets/Index-imagen.jpg");
+    }
+}
+
+.Tex-Serv {
     color: #113f67;
     font-size: 2rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.cartas{
+
+.cartas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,11 +124,13 @@
     gap: 2rem;
     padding: 2rem;
 }
+
 .cartas img {
     width: 100%;
     height: 200px;
     border-radius: 10px 10px 0 0;
 }
+
 .cartas p {
     font-size: 1rem;
     color: #000;
@@ -51,13 +138,15 @@
     margin-bottom: 20px;
     text-align: justify;
 }
+
 .cartas h2 {
     font-size: 1.4rem;
     color: #226597;
     padding: 10px 20px;
     text-align: center;
 }
-.carta1{
+
+.carta1 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
@@ -65,10 +154,11 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-.carta2{
+
+.carta2 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
@@ -76,10 +166,11 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-.carta3{
+
+.carta3 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
@@ -87,10 +178,11 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-.carta4{
+
+.carta4 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
@@ -98,10 +190,11 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-.carta5{
+
+.carta5 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
@@ -109,6 +202,6 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
