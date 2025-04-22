@@ -1,18 +1,12 @@
-.centro {
-    padding-top: 12rem;
-    width: 100%;
-}
-
-
 .textos {
-    padding: 10px;
+    padding: 1.5rem;
     color: white;
     font-size: 1.2rem;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: 30%;
+    top: 35%;
     text-align: center;
     width: 100%;
     font-family: "Montserrat", sans-serif;
@@ -20,7 +14,8 @@
     font-weight: 300;
     font-style: normal;
 }
-.cartas a{
+
+.cartas a {
     text-decoration: none;
     background-color: #226597;
     color: white;
@@ -33,9 +28,10 @@
 }
 
 .imagen-centro {
+    margin-top: 12.8rem;
     filter: brightness(0.7);
     width: 100%;
-    background-image: url("Asets/Index-imagen\ -\ movil.jpg");
+    background: url('Asets/Index-imagen.jpg') no-repeat center center/cover;
     padding-top: 20rem;
 }
 
@@ -48,7 +44,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        top: 40%;
+        top: 70%;
         text-align: center;
         width: 100%;
         font-family: "Montserrat", sans-serif;
@@ -66,18 +62,18 @@
         background-position: center;
         background-repeat: no-repeat;
         filter: brightness(0.7);
-        background-image: url("Asets/Index-imagen\ -\ movil.jpg");
+        background: url('Asets/Index-imagen.jpg') no-repeat center center/cover;
+        padding-top: 0;
     }
 }
 
-@media (min-width: 700px) {
+
+@media (min-width: 1080px) {
     .textos {
         padding: 10px;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         position: absolute;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         top: 50%;
         text-align: center;
@@ -87,35 +83,17 @@
         font-weight: 300;
         font-style: normal;
     }
-}
 
-@media (min-width: 1080px) {
-    .textos {
-        padding: 10px;
-        color: white;
-        font-size: 1.5rem;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        top: 60%;
-        text-align: center;
-        width: 100%;
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
-    }
     .imagen-centro {
+        filter: brightness(0.7);
         position: relative;
         width: 100%;
-        height: 80rem;
-        margin-top: -25em;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        filter: brightness(0.5);
-        background-image: url("Asets/Index-imagen.jpg");
+        padding-top: 0;
+        justify-content: center;
+        margin-top: 6rem;
+        align-items: center;
+        text-align: center;
+        background: url('Asets/Index-imagen.jpg') no-repeat center center/cover;
     }
 }
 
@@ -195,6 +173,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
 .carta3 p {
     font-size: 1rem;
     color: #000;
