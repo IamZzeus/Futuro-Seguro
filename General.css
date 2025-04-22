@@ -37,12 +37,13 @@ header li a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1.3rem;
 }
 
 .menus a {
     text-decoration: none;
     color: black;
+    padding: 0 .5rem;
+    align-items: center;
 }
 
 .menus ul {
@@ -50,10 +51,12 @@ header li a:hover {
     justify-content: space-between;
     padding: 10px;
     width: 100%;
+    text-align: center;
 }
 
 .menus li {
     list-style: none;
+    text-align: center;
 }
 
 footer {
