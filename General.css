@@ -17,6 +17,9 @@ header {
     flex-direction: column;
     z-index: 100;
 }
+header li a:hover {
+    color: #007BFF; /* Cambia el color al pasar el mouse */
+}
 
 .logo {
     text-align: center;
@@ -56,6 +59,10 @@ header {
 footer {
     background-color: #333333;
     height: 13rem;
+}
+
+footer li a:hover {
+    color: #007BFF;
 }
 
 .contfoot {
