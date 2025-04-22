@@ -25,6 +25,10 @@
     align-content: center;
 }
 
+.cartas a:hover {
+    color: #007BFF;
+}
+
 .imagen-centro {
     margin-top: 12.8rem;
     filter: brightness(0.7);

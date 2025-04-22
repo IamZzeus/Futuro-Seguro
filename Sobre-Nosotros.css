@@ -1,0 +1,140 @@
+.textos {
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    justify-content: center;
+    top: 44%;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cartas a {
+    text-decoration: none;
+    background-color: #226597;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    margin: 5px auto 15px auto;
+    align-content: center;
+}
+
+h2 {
+    color: #113f67;
+    text-align: center;
+    padding: 2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.cartas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.cartas a:hover {
+    color: #007BFF;
+}
+
+.imagen-centro {
+    margin-top: 12.8rem;
+    filter: brightness(0.5);
+    width: 100%;
+    height: 50vh;
+    background: url('Asets/Sobre-Nosotros.jpg') no-repeat center center/cover;
+}
+
+.cartas img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.cartas a {
+    text-decoration: none;
+    background-color: #226597;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    margin: 5px auto 15px auto;
+    align-content: center;
+}
+
+.cartas a:hover {
+    color: #007BFF;
+}
+
+.carta1 {
+    background: #87c0cd;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.carta1:hover {
+    transform: translateY(-10px);
+}
+
+.carta2 {
+    background: #87c0cd;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.carta2:hover {
+    transform: translateY(-10px);
+}
+@media (min-width: 1080px) {
+    .centro img {
+        margin-top: 0;
+        filter: brightness(0.7);
+        width: 100%;
+        height: 100vh;
+        background: url('Asets/Sobre-Nosotros.jpg') no-repeat center center/cover;
+    }
+    .textos {
+        padding: 1.5rem;
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        justify-content: center;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .textos p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
