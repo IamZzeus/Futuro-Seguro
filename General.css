@@ -15,7 +15,7 @@ header {
     position: fixed;
     display: flex;
     flex-direction: column;
-    z-index: 100;
+    z-index: 1;
 }
 header li a:hover {
     color: #007BFF; /* Cambia el color al pasar el mouse */

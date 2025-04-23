@@ -1,0 +1,145 @@
+.centro {
+    padding-top: 6rem;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.centro img {
+    margin-top: 4rem;
+    filter: brightness(0.5);
+    width: 100%;
+    height: 50vh;
+    background: url('Asets/Contacto.jpg') no-repeat center center/cover;
+}
+
+.textos {
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    justify-content: center;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 7rem;
+}
+
+.Informacion {
+    width: 70%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.Informacion h2 {
+    color: #113f67;
+
+}
+
+.Informacion li {
+    list-style: none;
+}
+
+.contacto-form {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0px 0px 0px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.cta-button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+@media (min-width: 1080px) {
+    .centro img {
+        margin-top: 0;
+        filter: brightness(0.7);
+        width: 100%;
+        height: 100vh;
+        background: url('Asets/Contacto.jpg') no-repeat center center/cover;
+    }
+
+    .textos {
+        padding: 1.5rem;
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        justify-content: center;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .textos p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .tabla {
+        margin-top: 60vh;
+    }
+
+    .Informacion {
+        width: 40%;
+        height: 60%;
+        margin-left: 10vh;
+        padding: 10vh;
+    }
+    .form-group textarea {
+        width: 40rem;
+        height: 18rem;
+    }
+}

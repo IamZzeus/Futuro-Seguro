@@ -7,7 +7,7 @@
     <title>Sobre Nosotros</title>
     <link rel="shortcut icon" href="Asets/Logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="General.css">
-    <link rel="stylesheet" href="Sobre-Nosotros.css">
+    <link rel="stylesheet" href="Contacto.css">
 </head>
 
 <body>
@@ -18,17 +18,58 @@
             </div>
             <div class="menus">
                 <ul>
-                    <li><a href="index.html"><b>Inicio</b></a></li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="Servicios.html">Servicios</a></li>
                     <li><a href="Sobre-Nosotros.html">Sobre Nosotros</a></li>
                     <li><a href="Testimonios.html">Testimonios</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Contacto.html"><b>Contacto</b></a></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-
+        <div class="centro">
+            <img class="imagen-centro">
+            <div class="textos">
+                <h1>Contacto</h1>
+                <p>¿Tienes alguna pregunta o necesitas más información?
+                    ¡No dudes en contactarnos!</p>
+            </div>
+        </div>
+        <div class="tabla">
+            <div class="Contacto">
+                <h2>Envíanos un mensaje</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="Informacion">
+                <h2>Información de contacto</h2>
+                <ul>
+                    <li><strong>Dirección:</strong> Calle de la oficina, Ciudad, País</li>
+                    <li><strong>Teléfono:</strong> +52 449 196 5166</li>
+                    <li><strong>Correo electrónico:</strong> miguel.angel@telmexmail.com</li>
+                </ul>
+                <h2>Horario de atención</h2>
+                <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="contfoot">
