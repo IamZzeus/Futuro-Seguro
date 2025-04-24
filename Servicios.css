@@ -1,0 +1,44 @@
+.imagen-centro {
+    margin-top: 11rem;
+    margin-top: 6rem;
+    filter: brightness(0.5);
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.imagen-centro video {
+    width: 100%;
+    height: 100vh;
+}
+
+.textos {
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    justify-content: center;
+    top: 37%;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cartas a {
+    text-decoration: none;
+    background-color: #226597;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    margin: 5px auto 15px auto;
+    align-content: center;
+}
+
+.cartas a:hover {
+    color: #007BFF;
+}
