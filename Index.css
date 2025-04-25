@@ -87,7 +87,7 @@
     }
 
     .imagen-centro {
-        filter: brightness(0.7);
+        filter: brightness(0.5);
         position: relative;
         width: 100%;
         padding-top: 0;

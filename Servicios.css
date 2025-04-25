@@ -3,15 +3,8 @@
     margin-top: 6rem;
     filter: brightness(0.5);
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     object-fit: cover;
-}
-
-.Tex-Serv {
-    color: #113f67;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
 }
 
 .textos {
@@ -20,7 +13,7 @@
     font-size: 1.2rem;
     position: absolute;
     justify-content: center;
-    top: 37%;
+    top: 30%;
     text-align: center;
     width: 100%;
     font-family: "Montserrat", sans-serif;
@@ -28,16 +21,27 @@
     font-weight: 300;
 }
 
+.Tex-Serv {
+    color: #113f67;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
 .cartas a {
+    display: flex;
     text-decoration: none;
     background-color: #226597;
     color: white;
     width: 150px;
     height: 40px;
     border-radius: 13px;
-    text-align: center;
-    margin: 5px auto 15px auto;
+    flex-wrap: wrap;
     align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+
 }
 
 .cartas a:hover {
@@ -56,7 +60,7 @@
 .cartas img {
     width: 100%;
     height: 50%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 0 0px;
 }
 
 .cartas p {
@@ -68,6 +72,7 @@
 }
 
 .cartas h2 {
+    margin-top: 1rem;
     font-size: 1.4rem;
     color: #226597;
     padding: 10px 20px;
@@ -78,16 +83,14 @@
     list-style: square;
     font-size: 1rem;
     padding: 5px 30px;
-    justify-content: center;
 }
 
 .Adentro-texto li {
     padding: 5px 30px;
-    justify-content: center;
 }
 
-.carta1:hover {
-    transform: translateY(-10px);
+.Adentro-texto {
+    height: 100%;
 }
 
 .carta1 {
@@ -100,4 +103,167 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    text-align: center;
+}
+
+@media (min-width: 1080px) {
+    .imagen-centro {
+        margin-top: 6rem;
+        filter: brightness(0.5);
+        width: 100%;
+        height: 90vh;
+        object-fit: cover;
+    }
+
+    .cartas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .cartas a {
+        text-decoration: none;
+        background-color: #226597;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 13px;
+        text-align: center;
+        margin: 5px auto 15px auto;
+        align-content: center;
+    }
+
+
+    .textos {
+        padding: 1.5rem;
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        justify-content: center;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+    }
+
+    .Tex-Serv {
+        color: #113f67;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .cartas img {
+        width: 70%;
+        height: 70%;
+        border-radius: 10px;
+        margin: 5rem;
+    }
+
+    .Adentro-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Adentro-texto ul {
+        font-size: 1.2rem;
+    }
+
+    .Adentro-texto li {
+        text-align: left;
+    }
+
+    .Adentro-texto p {
+        font-size: 1.2rem;
+    }
+
+    .Adentro-texto h2 {
+        font-size: 2.4rem;
+    }
+
+    .carta1 {
+        border-radius: 10px;
+        width: 150vh;
+        height: 35rem;
+        min-height: 25rem;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .carta1:hover {
+        transform: translateY(-10px);
+    }
+
+    .carta2 {
+        border-radius: 10px;
+        width: 150vh;
+        height: 35rem;
+        min-height: 25rem;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .carta2:hover {
+        transform: translateY(-10px);
+    }
+
+    .carta3 {
+        border-radius: 10px;
+        width: 150vh;
+        height: 35rem;
+        min-height: 25rem;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .carta3:hover {
+        transform: translateY(-10px);
+    }
+
+    .carta4 {
+        border-radius: 10px;
+        width: 150vh;
+        height: 35rem;
+        min-height: 25rem;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .carta4:hover {
+        transform: translateY(-10px);
+    }
+
+    .carta5 {
+        border-radius: 10px;
+        width: 150vh;
+        height: 35rem;
+        min-height: 25rem;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .carta5:hover {
+        transform: translateY(-10px);
+    }
 }

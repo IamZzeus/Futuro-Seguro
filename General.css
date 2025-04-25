@@ -17,8 +17,10 @@ header {
     flex-direction: column;
     z-index: 1;
 }
+
 header li a:hover {
-    color: #007BFF; /* Cambia el color al pasar el mouse */
+    color: #007BFF;
+    /* Cambia el color al pasar el mouse */
 }
 
 .logo {
@@ -59,11 +61,6 @@ header li a:hover {
     text-align: center;
 }
 
-footer {
-    background-color: #333333;
-    height: 13rem;
-}
-
 footer li a:hover {
     color: #007BFF;
 }
@@ -75,6 +72,7 @@ footer li a:hover {
     align-items: center;
     text-align: center;
     padding: 10px;
+    background-color: #333333;
 }
 
 .enlaces a {
@@ -148,18 +146,13 @@ footer li a:hover {
         list-style: none;
     }
 
-    footer {
-        background-color: #333333;
-        height: 11rem;
-    }
-
     .contfoot {
         padding-top: 2rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
         text-align: center;
-
+        background-color: #333333;
     }
 
     .enlaces a {
