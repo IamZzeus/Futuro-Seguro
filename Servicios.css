@@ -109,7 +109,7 @@
 .carta2 {
     border-radius: 10px;
     width: 60vh;
-    height: 750px;
+    height: 910px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -122,7 +122,7 @@
 .carta3 {
     border-radius: 10px;
     width: 60vh;
-    height: 750px;
+    height: 830px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@
 .carta4 {
     border-radius: 10px;
     width: 60vh;
-    height: 750px;
+    height: 780px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@
 .carta5 {
     border-radius: 10px;
     width: 60vh;
-    height: 750px;
+    height: 830px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
