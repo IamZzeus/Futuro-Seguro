@@ -41,7 +41,7 @@
     .textos {
         padding: 10px;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -123,7 +123,7 @@
 }
 
 .cartas p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #000;
     padding: 10px 20px;
     margin-bottom: 10px;
@@ -137,11 +137,11 @@
     text-align: center;
 }
 
-.carta1 {
+.carta1,.carta2,.carta3,.carta4,.carta5 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
-    height: 440px;
+    height: 470px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -154,95 +154,18 @@
     transform: translateY(-10px);
 }
 
-.carta2 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 440px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
 .carta2:hover {
     transform: translateY(-10px);
-}
-
-.carta3 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 440px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.carta3 p {
-    font-size: 1rem;
-    color: #000;
-    padding: 22px 10px;
-    margin-bottom: 10px;
-    text-align: justify;
 }
 
 .carta3:hover {
     transform: translateY(-10px);
 }
 
-.carta4 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 440px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.carta4 p {
-    font-size: 1rem;
-    color: #000;
-    padding: 22px 10px;
-    margin-bottom: 10px;
-    text-align: justify;
-}
-
 .carta4:hover {
     transform: translateY(-10px);
 }
 
-.carta5 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 440px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.carta5 p {
-    font-size: 1rem;
-    color: #000;
-    padding: 22px 10px;
-    margin-bottom: 10px;
-    text-align: justify;
-}
-
 .carta5:hover {
     transform: translateY(-10px);
-    /* Efecto de levantar la carta */
 }

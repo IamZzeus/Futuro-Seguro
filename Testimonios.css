@@ -48,7 +48,7 @@
 }
 
 .cartas p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #000;
     padding: 10px 20px;
     margin-bottom: 10px;
@@ -62,11 +62,11 @@
     text-align: center;
 }
 
-.carta1 {
+.carta1, .carta2, .carta3, .carta4 {
     background: #87c0cd;
     border-radius: 10px;
     width: 300px;
-    height: 450px;
+    height: 480px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -77,48 +77,15 @@
 .carta1:hover {
     transform: translateY(-10px); /* Efecto de levantar la carta */
 }
-.carta2 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 450px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
+
 .carta2:hover {
     transform: translateY(-10px); /* Efecto de levantar la carta */
 }
-.carta3 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 450px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
+
 .carta3:hover {
     transform: translateY(-10px); /* Efecto de levantar la carta */
 }
-.carta4 {
-    background: #87c0cd;
-    border-radius: 10px;
-    width: 300px;
-    height: 450px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
+
 .carta4:hover {
     transform: translateY(-10px); /* Efecto de levantar la carta */
 }

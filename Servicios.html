@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="Asets/Logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="General.css">
     <link rel="stylesheet" href="Servicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -23,6 +24,14 @@
                     <li><a href="Sobre-Nosotros.html">Sobre Nosotros</a></li>
                     <li><a href="Testimonios.html">Testimonios</a></li>
                     <li><a href="Contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="carrito.html" style="text-decoration: none; color: inherit;">
+                            <div class="carrito-icono" id="carrito-icono">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span id="contador-carrito"></span>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -37,11 +46,11 @@
             </div>
         </div>
         <h1 class="Tex-Serv">Servicios</h1>
-        <div class="cartas">
+        <div class="cartas" id="listProducts">
             <div class="carta1">
                 <img src="Asets/Afore.jpg">
                 <div class="Adentro-texto">
-                    <h2>Afore</h2>
+                    <h2>Asesoria para Afore</h2>
                     <p>Una Afore, o Administradora de Fondos para el Retiro, es una institución financiera que se
                         encarga de
                         administrar los ahorros de los trabajadores para su jubilación.
@@ -52,13 +61,16 @@
                         <li>La Afore invierte el dinero para que crezca.</li>
                     </ul>
                     </p>
-                    <a href="Contacto.html">Conoce mas</a>
+                    <input type="number" id="cantidad-1" value="1" min="1" style="visibility: hidden;">
+                    <button button class="agregar-carrito" data-id="1" data-nombre="Asesoria para Afore" data-precio="900">Agregar al
+                        Carrito</button>
+                    <p id="currentPrice">$900.00</p>
                 </div>
             </div>
             <div class="carta2">
                 <img src="Asets/Creditos.jpg">
                 <div class="Adentro-texto">
-                    <h2>Afore</h2>
+                    <h2>Asesoria para Creditos</h2>
                     <p>Elige el crédito que más te convenga para cumplir tus propósitos, nosotros te apoyamos.
                     <ul>
                         <li>Flexibilidad: Los créditos se otorgan desde los $5,000 hasta los $600,000*, en plazos de 12,
@@ -73,13 +85,16 @@
                         <li>Sin aval o garantías: No requiere aval o garantías.</li>
                     </ul>
                     </p>
-                    <a href="Contacto.html">Conoce mas</a>
+                    <input type="number" id="cantidad-2" value="1" min="1" style="visibility: hidden;">
+                    <button class="agregar-carrito" data-id="2" data-nombre="Asesoria para Creditos" data-precio="900">Agregar al
+                        Carrito</button>
+                    <p id="currentPrice">$900.00</p>
                 </div>
             </div>
             <div class="carta3">
                 <img src="Asets/Pensiones.jpg">
                 <div class="Adentro-texto">
-                    <h2>Pensiones</h2>
+                    <h2>Asesoria para Pensiones</h2>
                     <p>Nuestra labor profesional consiste en asesorar a los trabajadores de los institutos de
                         Seguridad Social
                         IMSS e ISSSTE en la planeación de su retiro de su vida laboral.
@@ -94,14 +109,18 @@
                             competente y dar inicio a la acción judicial requerida.
                         </li>
                     </ul>
+
                     </p>
-                    <a href="Contacto.html">Conoce mas</a>
+                    <input type="number" id="cantidad-3" value="1" min="1" style="visibility: hidden;">
+                    <button class="agregar-carrito" data-id="3" data-nombre="Asesoria para Pensiones" data-precio="900">Agregar al
+                        Carrito</button>
+                    <p id="currentPrice">$900.00</p>
                 </div>
             </div>
             <div class="carta4">
                 <img src="Asets/Fondo-Retiro.jpg">
                 <div class="Adentro-texto">
-                    <h2>Plan Personal de Retiro (PPR)</h2>
+                    <h2>Asesoria para Plan Personal de Retiro (PPR)</h2>
                     <p>NUn Plan Personal de Retiro (PPR) es un esquema de ahorro diseñado para ayudarte a construir un
                         fondo
                         para tu retiro, con flexibilidad y beneficios fiscales.
@@ -114,13 +133,16 @@
                             mundial.</li>
                     </ul>
                     </p>
-                    <a href="Contacto.html">Conoce mas</a>
+                    <input type="number" id="cantidad-4" value="1" min="1" style="visibility: hidden;">
+                    <button class="agregar-carrito" data-id="4" data-nombre="Asesoria para Plan Personal de Retiro (PPR)" data-precio="900">Agregar al
+                        Carrito</button>
+                    <p id="currentPrice">$900.00</p>
                 </div>
             </div>
             <div class="carta5">
                 <img src="Asets/seguros.jpg">
                 <div class="Adentro-texto">
-                    <h2>Seguros</h2>
+                    <h2>Asesoria para Seguros</h2>
                     <p>Protege a tu familia y asegura tu futuro con nuestras opciones de seguros. En Allianz,
                         te ofrecemos experiencia, seguridad y solidez financiera.
                     <ul>
@@ -133,7 +155,10 @@
                         <li>¿Serían suficientes tus ahorros para cubrir los gastos adicionales?</li>
                     </ul>
                     </p>
-                    <a href="Contacto.html">Conoce mas</a>
+                    <input type="number" id="cantidad-5" value="1" min="1" style="visibility: hidden;">
+                    <button class="agregar-carrito" data-id="5" data-nombre="Asesoria para Seguros" data-precio="900">Agregar al
+                        Carrito</button>
+                    <p id="currentPrice">$900.00</p>
                 </div>
             </div>
         </div>
@@ -161,6 +186,7 @@
             </div>
         </div>
     </footer>
+    <script src="Carrito.js"></script>
 </body>
 
 </html>

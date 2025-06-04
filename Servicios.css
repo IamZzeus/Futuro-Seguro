@@ -7,6 +7,45 @@
     object-fit: cover;
 }
 
+.agregar-carrito {
+    display: flex;
+    text-decoration: none;
+    background-color: #226597;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 13px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.agregar-carrito:hover {
+    color: #007BFF;
+}
+
+.carrito-icono {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+.carrito-icono:hover {
+    color: #007bff;
+}
+
+#carrito {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
 .textos {
     padding: 1.5rem;
     color: white;
@@ -29,24 +68,6 @@
     margin-top: 2rem;
 }
 
-.cartas a {
-    display: flex;
-    text-decoration: none;
-    background-color: #226597;
-    color: white;
-    width: 150px;
-    height: 40px;
-    border-radius: 13px;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
-
-}
-
-.cartas a:hover {
-    color: #007BFF;
-}
 
 .cartas {
     display: flex;
@@ -60,7 +81,7 @@
 .cartas img {
     width: 100%;
     height: 50%;
-    border-radius: 10px 10px 0 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 .cartas p {
@@ -93,62 +114,13 @@
     height: 100%;
 }
 
-.carta1 {
-    border-radius: 10px;
-    width: 60vh;
-    height: 750px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-}
-
-.carta2 {
-    border-radius: 10px;
-    width: 60vh;
-    height: 910px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-}
-
-.carta3 {
-    border-radius: 10px;
-    width: 60vh;
-    height: 830px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-}
-
-.carta4 {
-    border-radius: 10px;
-    width: 60vh;
-    height: 780px;
-    min-height: 25rem;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-}
-
+.carta1,
+.carta3,
+.carta4,
 .carta5 {
     border-radius: 10px;
     width: 60vh;
-    height: 830px;
+    height: 850px;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -156,6 +128,25 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     text-align: center;
+}
+.carta2{
+    border-radius: 10px;
+    width: 60vh;
+    height: 950px;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+#currentPrice{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #226597;
+    font-weight: bold;
 }
 
 @media (min-width: 1080px) {
@@ -239,9 +230,13 @@
         font-size: 2.4rem;
     }
 
-    .carta1 {
+    .carta1,
+    .carta2,
+    .carta3,
+    .carta4,
+    .carta5 {
         border-radius: 10px;
-        width: 150vh;
+        width: 160vh;
         height: 35rem;
         min-height: 25rem;
         display: flex;
@@ -255,66 +250,18 @@
         transform: translateY(-10px);
     }
 
-    .carta2 {
-        border-radius: 10px;
-        width: 150vh;
-        height: 35rem;
-        min-height: 25rem;
-        display: flex;
-        flex-direction: row;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
-    }
-
     .carta2:hover {
         transform: translateY(-10px);
-    }
-
-    .carta3 {
-        border-radius: 10px;
-        width: 150vh;
-        height: 35rem;
-        min-height: 25rem;
-        display: flex;
-        flex-direction: row;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
     }
 
     .carta3:hover {
         transform: translateY(-10px);
     }
 
-    .carta4 {
-        border-radius: 10px;
-        width: 150vh;
-        height: 35rem;
-        min-height: 25rem;
-        display: flex;
-        flex-direction: row;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
-    }
-
     .carta4:hover {
         transform: translateY(-10px);
     }
-
-    .carta5 {
-        border-radius: 10px;
-        width: 150vh;
-        height: 35rem;
-        min-height: 25rem;
-        display: flex;
-        flex-direction: row;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
-    }
-
+    
     .carta5:hover {
         transform: translateY(-10px);
     }
